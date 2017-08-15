@@ -1,2 +1,2 @@
-Flask==0.10.1
-requests-oauthlib==0.5.0
+kyoukai >= 2.2.1
+aiohttp >= 2.0.7
