@@ -4,7 +4,7 @@ from urllib.parse import urlencode
 import aiohttp
 from kyoukai import Kyoukai
 from kyoukai.util import as_json
-from kyoukai.asphalt import HTTPRequestContext, Response
+from kyoukai.asphalt import HTTPRequestContext
 from werkzeug.utils import redirect
 
 OAUTH2_CLIENT_ID = os.environ['OAUTH2_CLIENT_ID']
